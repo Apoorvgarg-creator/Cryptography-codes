@@ -10,7 +10,6 @@ int modInverse(int a, int m)
     int x, y;
     int g = gcdExtended(a, m, &x, &y);
     if (g != 1){
-        cout << "Inverse doesn't exist";
         return -1;
     }
     
