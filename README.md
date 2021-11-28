@@ -3,7 +3,7 @@
 
 1. Find the multiplicative inverse using extended Euclidean algorithm in modus n.
 2. Find the inverse of a matrix in modulus n.
-3. Find the multiplicative inverse of a polynomial using extended Euclidean algorithm in modus irreducible polynomial.
+3. Find the multiplicative inverse of a polynomial using extended Euclidean algorithm in modus irreducible polynomial. **(Missing)**
 4. Implement the following traditional ciphers:
 
 
@@ -27,11 +27,11 @@
 
     A. DES
     
-    B. AES
+    B. AES **(Missing)**
     
     C. RSA
     
-    D. ElGlgamal
+    D. ElGlgamal **(Missing)**
     
     E. Rabin
     
