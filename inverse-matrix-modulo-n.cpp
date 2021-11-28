@@ -12,8 +12,7 @@ int modInverse(int a, int m)
     if (g != 1){
         return -1;
     }
-    
-         
+
         // m is added to handle negative x
         int res = (x % m + m) % m;
         cout << "Modular multiplicative inverse is " << res;
