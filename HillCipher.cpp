@@ -27,7 +27,7 @@ string encode(vector<vector<int> > key, string plaintext){
 
 string encrypt(string plaintext, vector<vector<int> > key){
     int bogus=plaintext.size()%key.size()==0?0:key.size()-plaintext.size()%key.size();
-    cout<<"Bogus = "<<bogus<<'\n';
+    // cout<<"Bogus = "<<bogus<<'\n';
     string ciphertext;
     for(int i=0; i<bogus; i++)
         plaintext+='z';
@@ -56,5 +56,6 @@ int main(){
     string plaintext;
     cout<<"Enter plaintext";
     cin>>plaintext;
-    cout<<encrypt(encrypt(plaintext, key), invertkey(key));
+    cout<<encrypt(plaintext, key)<<endl;
+    cout<<encrypt(encrypt(plaintext, key), invertkey(key))<<endl;
 }

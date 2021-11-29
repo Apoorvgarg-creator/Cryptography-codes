@@ -8,6 +8,8 @@ int inverse(int a, int m=26)
     for (int x=1; x<m; x++)
        if ((a*x) % m == 1)
           return x;
+    
+    return -1;
 }
 
 string encrypt(string plaintext, int k1, int k2)
@@ -32,13 +34,10 @@ string decrypt(string ciphertext, int k1, int k2)
 
 int main()
 {
-    string s="zebbw";
-    s="rmw";
+    string s="apoorvgarg";
     int k1=7, k2=2, process=1;
-    //cin>>process;
-    if(process==0)
-    cout<<encrypt(s,k1,k2);
-    else if(process==1)
-    cout<<decrypt(s,5,10);
+    string encrypt_text = encrypt(s,k1,k2);
+    cout<< encrypt_text << endl;
+    cout<<decrypt(encrypt_text,k1,k2)<<endl;
     return 0;
 }

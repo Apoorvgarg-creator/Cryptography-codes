@@ -24,10 +24,10 @@ string decrypt(string ciphertext, int k)
 
 int main()
 {
-    // plaintext = "the quick brown fox jumped over the lazy dog"
-    string s="lipps";//"pda mqeyg xnksj bkt fqilaz kran pda hwvu zkc";
+    
+    string s="pda mqeyg xnksj bkt fqilaz kran pda hwvu zkc";
     int k=56, process=1; //0 for encryption, 1 for decryption
-    //cin>>process;
+    cin>>process;
     if(process==0)
     cout<<encrypt(s,k);
     else if(process==1)

@@ -26,14 +26,11 @@ int main()
 {   string s;
     string key;
     cout<<"Enter plaintext and key\n";
-    cin>>s>>key;
-    int process=0; //0 for encryption, 1 for decryption
-    cout<<"Enter 0 for encryption 1 for decryption\n";
-    cin>>process;
-    if(process==0)
-    cout<<"Encrypted text:"<<encrypt(s,key);
-    else if(process==1)
-    cout<<"Decrypted text:"<<decrypt(s,key);
+    cin>>s;
+    cin>>key;
+    string encrypt_text = encrypt(s,key);
+    cout<<"Encrypted text:"<<encrypt_text<<endl;
+    cout<<"Decrypted text:"<<decrypt(encrypt_text,key)<<endl;
     return 0;
 }
 

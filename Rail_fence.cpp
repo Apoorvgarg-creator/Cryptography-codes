@@ -64,8 +64,8 @@ void decryptMsg(char enMsg[], int key){
 }
  
 int main(){
-    char msg[] = "Hello World";
-    char enMsg[] = "Horel ollWd";
+    char msg[] = "Apoorv Garg";
+    char enMsg[] = "graG vroopA";
     int key = 3;
  
     printf("Original Message: %s", msg);
