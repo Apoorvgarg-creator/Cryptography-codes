@@ -3,8 +3,7 @@
 
 1. Find the multiplicative inverse using extended Euclidean algorithm in modus n.
 2. Find the inverse of a matrix in modulus n.
-3. Find the multiplicative inverse of a polynomial using extended Euclidean algorithm in modus irreducible polynomial. **(Missing)**
-4. Implement the following traditional ciphers:
+3. Implement the following traditional ciphers:
 
 
     A. Shift Cipher
@@ -22,21 +21,18 @@
     G. Rail fence—Row & column transformation
     
     
-5. Implement the following algorithms:
+4. Implement the following algorithms:
 
 
     A. DES
     
-    B. AES **(Missing)**
+    B. AES 
     
     C. RSA
     
-    D. ElGlgamal **(Missing)**
+    D. ElGlgamal 
     
     E. Rabin
     
     F. SHA-512
     
-    
-6. Implement the digital signature schemes: RSA and ElGlgamal.
-
